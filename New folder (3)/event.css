@@ -1,0 +1,214 @@
+body{
+    max-width: 200vh;
+    max-height: 200vh;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#242124;
+}
+.container{
+    display:flex;
+    z-index: 3;
+}
+
+/* NAVBAR */
+.navbar1{
+    background-color: #121214;
+    position: fixed;
+    align-items:center;
+    justify-content:center;
+    top: 0;
+    left:0;
+    width:100%;
+    padding:2%;
+    margin-left:0;
+    z-index: 3;
+
+}
+.apa{
+    opacity:100%;
+    color: #00BFFF;
+    padding: 20px;
+    border-radius: 8px;
+    text-decoration:none;
+    float:right;
+    margin-right: 20px;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.ade{
+    text-decoration:none;
+    opacity:40%;
+    color:white;
+    font-weight:700;
+    padding: 20px;
+    float:right;
+    margin-right: 40px;
+    z-index: 3;
+}
+
+.asu{
+    opacity:40%;
+    text-decoration:none;
+    color:white;
+    font-weight:700;
+    padding: 20px;
+    float:right;
+    margin-right: 20px;
+    z-index: 3;
+}
+
+.asu:hover{
+    opacity:80%;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    border-radius:8px;
+    color:#00BFFF;
+    z-index: 3;
+}
+
+.ade:hover{
+    opacity:80%;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    border-radius:8px;
+    color:#00BFFF;
+}
+
+.quickgames{
+    margin-top:-40px;
+    text-decoration:none;
+    color:white;
+    font-size: 35px;
+    font-weight:750;
+    padding: 5px;
+    float:left;
+    margin-left: 100px;
+    z-index: 3;
+    opacity:30%;
+}
+
+.quickgames:hover{
+  opacity:90%;
+  transition: .5s ease-in-out;
+  color:#00BFFF;
+}
+
+.search-container {
+    opacity:60%;
+    margin-top:10px;
+    margin-left:-10px;
+    margin-right:10px;
+    left:60vh;
+    position: relative;
+    width: 500px;
+}
+.search-input {
+    top:0%;
+    width: 100%;
+    padding: 10px 40px 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.search-icon {
+    position: absolute;
+    right:-50px;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+:hover.search-container {
+    opacity:100%;
+    margin-top:10px;
+    margin-left:-10px;
+    margin-right:10px;
+    left:60vh;
+    position: relative;
+    width: 500px;
+}
+.search-input {
+    top:0%;
+    width: 100%;
+    padding: 10px 40px 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.search-icon {
+    position: absolute;
+    right:-50px;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+
+.logonav{
+    width:100px;
+    opacity:80%;
+    float:left;
+    z-index:3;
+    margin-bottom:-100px;
+    margin-top:-20px;
+}
+
+.logonav:hover{
+  opacity:100%;
+  transition:.5s ease-in-out;
+  cursor:pointer;
+}
+/* navbar end */
+
+/* konten */
+.title{
+    margin: 130px 0px 0px 50px;
+    color: #ccc;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.article1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:20px 0px 0px 50px;
+    gap: 30px;
+}
+
+.gambar{
+    border-radius: 16px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(94, 133, 136);
+}
+
+.deskripsilombaml{
+    font-weight: 500;
+    margin-left:0px ;
+    color: #ccc;
+    opacity: 80%;
+    text-decoration: none;
+
+}
+
+.gambar:hover{
+    background-color: #00BFFF;
+}
+
+.article1:hover{
+    cursor: pointer;
+}
+
+.deskripsilombaml:hover{
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.gambarff{
+    border-radius: 16px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(94, 133, 136);
+}
+
+.gambarff:hover{
+    background-color: #EA4B16;
+}
+
+/* konten end */
