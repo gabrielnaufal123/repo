@@ -158,40 +158,68 @@ body{
 
 /* KONTEN */
 .badan{
-    background-color: #666464;
     margin: 150px 30px 0px 50px;
 }
 
 .title1{
-    margin: 150px 0px 0px 30px;
+    margin: 150px 0px 20px 100px;
     color: white;
     font-size: 40px;
     font-weight: 600;
 }
 
 .desk{
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 0px 100px;
     color: white;
     font-size: 20px;
     font-weight: 400;
 }
 
 .article1{
+    float: right;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin:20px 0px 0px 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 10px 0px 10px 100px;
     gap: 30px;
+    box-shadow: 24px 21px 86px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 24px 21px 86px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 24px 21px 86px 0px rgba(0,0,0,0.75);
+    border-radius: 0px 12px 12px 0px;
+    background: linear-gradient(to right, #205c94, #46a1f7);
 }
 
 .gambar{
     border-radius: 18px;
+    opacity: 90%;
+    width:50px ;
+    height: 50px;
+    margin-right: 100px;
+    margin-bottom: 5px;
+    box-shadow: 6px 3px 86px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 3px 86px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 3px 86px 0px rgba(0,0,0,0.75);
 }
 
 .deskripsilombaml{
-    font-size: larger;
-    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
     font-weight: 600;
-    margin-left: 35px;
+    padding-left: 20px;
+    margin-right: 90px;
+    margin-left: -40px;
     margin-bottom: 20px;
+    opacity: 90%;
+}
+
+.logocontact{
+    margin:10px 0px 0px 100px;
+    background-color: #292729;
+    padding-right: 310px;
+    padding-left: 200px;
+    height: 310px;
+    width: 310px;
+    border-radius: 12px 0px 0px 12px;
 }
 /* KONTEN END */
